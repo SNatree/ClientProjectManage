@@ -1,0 +1,8 @@
+#login-main-card {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#login-content {
+    box-shadow: 1px 1px 3px #888888
+}

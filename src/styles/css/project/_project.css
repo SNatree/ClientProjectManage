@@ -1,0 +1,29 @@
+:root {
+    --l-dash-project-head-card-color: #001529;
+}
+
+#dv-project-card span[role='img'] {
+    display: inline-flex;
+}
+
+
+#head-switch[aria-checked='false'] {
+    background: var(--l-dash-project-head-card-color);
+}
+
+#dv-project-card .ant-table.ant-table-small .ant-table-title,
+.ant-table.ant-table-small .ant-table-footer,
+.ant-table.ant-table-small .ant-table-thead>tr>th,
+.ant-table.ant-table-small .ant-table-tbody>tr>td,
+.ant-table.ant-table-small tfoot>tr>th,
+.ant-table.ant-table-small tfoot>tr>td {
+    padding: 8px 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#dv-project-card .page-header-file {
+    background-color: #fafafa;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 5px;
+}
